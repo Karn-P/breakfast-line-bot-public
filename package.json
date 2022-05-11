@@ -1,0 +1,20 @@
+{
+  "name": "breakfast-bot",
+  "version": "0.0.0",
+  "description": "An example LINE bot just to echo messages",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.3.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.16.3",
+    "google-spreadsheet": "^3.2.0",
+    "googleapis": "^100.0.0",
+    "nodemon": "^2.0.15",
+    "util": "^0.12.4"
+  }
+}
